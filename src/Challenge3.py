@@ -14,3 +14,4 @@ str = ''
 for i in result:
     str += i
 print(str)
+# 下一关地址为http://www.pythonchallenge.com/pc/def/linkedlist.php
