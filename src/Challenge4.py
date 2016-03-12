@@ -13,7 +13,7 @@ while nothing:
     payload = {'nothing': nothing}
     resp = requests.get(url, params = payload)
     print(resp.text)
-    nothing = re.search('the next nothing is (\d+)', resp.text)
+    nothing = re.search(r'the next nothing is (\d+)', resp.text)
     if nothing:
         nothing = nothing.group(1)
         if nothing == '16044':

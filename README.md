@@ -19,3 +19,6 @@ The Python Challenge(http://www.pythonchallenge.com/)
 ## Challenge 5
 根据提示pronounce it，读网页标题peak hell，谐音为pickle，被操作的文本在网页源代码中指向的banner.p。反序列化后的文本是一个二维list，
 最小元素由一个字符和一个数字组成。在终端中能够打印出channel。
+
+## Challenge 6
+根据画面主体拉链的英文zip修改url为http://www.pythonchallenge.com/pc/def/channel.zip，下载文件后先读readme.txt，与Challenge 4类似。最后通过zipfile模块读取压缩包中文件的注释，并打印得到结果。
