@@ -31,3 +31,6 @@ The Python Challenge(http://www.pythonchallenge.com/)
 
 ## Challenge 9
 网页标题`connect the dots`应该是要我们在图片中画一个多边形出来，查看网页源码中给出了两组坐标，使用Pillow模块绘制图案，最后是一头牛。下一关即是bull。
+
+## Challenge 10
+点击图片中的牛出现list a的前几个元素，要找到规律求出a[30]的长度。规律就是——1个1，写作11；2个1，写作21；1个2，1个1，写作1211...
