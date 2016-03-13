@@ -34,3 +34,6 @@ The Python Challenge(http://www.pythonchallenge.com/)
 
 ## Challenge 10
 点击图片中的牛出现list a的前几个元素，要找到规律求出a[30]的长度。规律就是——1个1，写作11；2个1，写作21；1个2，1个1，写作1211...
+
+## Challenge 11
+根据图像水平坐标x和垂直坐标y的奇偶性, 把原图的像素分成四个部分, 每个部分形成一张小图，答案在图中。
