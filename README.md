@@ -37,3 +37,15 @@ The Python Challenge(http://www.pythonchallenge.com/)
 
 ## Challenge 11
 根据图像水平坐标x和垂直坐标y的奇偶性, 把原图的像素分成四个部分, 每个部分形成一张小图，答案在图中。
+
+## Challenge 12
+实在不会做，看答案了：
+> The image shows a deck of cards being dealt into 5 piles. The cards even have the number '5' on theirs backs. The image itself is named 'evil1.jpg', a deviation from previous levels. So we increment the number, and there is indeed an evil2.jpg. This image tells you to look for a .gfx file; you'll find a evil2.gfx file.
+
+>Before we dissect that file, look further and find evil3.jpg, which claims there are 'no more evils...'. Will you believe the claim? You shouldn't, because evil4.jpg does exist, altough it is not a JPEG image at all. It is in fact a text file telling you that "Bert is evil!" and to go back.
+
+>So we go back to our evil2.gfx file, which appears to be binary soup. But remember the hints. All you have to do is deal the data into 5 equal piles and save those piles to disc. It turns out there are 5 images in there. Image one contains the letters 'dis', the next contains 'pro', the 3rd 'port', the 4th 'ional' and the 5th 'ity', but has those letters scored out. Indeed, the next level is at 'disproportional'.
+
+>The fourth image may not load in all PNG viewers, because it has been truncated to fit in the pile of images; Firefox is tolerant enough to show what it can; you can also try and pad the data with zeros until it can be loaded (use PIL to automate this). As is, PIL can create an Image from the fourth piece, but cannot save it (im.save() and im.show() fail).
+
+下一关地址是`disproportional`。
